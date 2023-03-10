@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+div {
+	font-family: Arial, sans-serif;	
+}
+ul {
+	list-style-type: none;
+}
+#container {	
+	width: 100%;
+	float: right;
+	margin-left: -200px;
+}
+#content {
+	margin-left: 200px;
+}
+#sidebar {
+	width: 200px;
+	float: left;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 75px;
+    text-align: right;
+}
+input {
+  	display: inline-block;
+  	float: left;
+}
+textarea {
+	display: inline-block;
+  	float: left;
+}
+#button{
+	display: inline-block;
+    float: left;
+    clear: left;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!-- Name: Jennifer Byrne
+	 Date: March 29, 2020
+	 Notes: ENTD481 Final Project - Mail page
+-->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="final.css">
+	<title>Contact Us</title>
+</head>
+<body>
+	<div id="container">
+		<div id="sidebar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="dept.jsp">Departments</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h1>Send us a Message</h1>
+			<!-- Beginning of form -->
+			<form name="EmailServlet" id="EmailServlet" action="servlet/finalproject.EmailServlet"
+		  		  method="post">
+		  
+			<!-- To field -->  
+			<label for="to">To:</label>
+			<input type="text" name="to" id="to" /><br />
+		
+			<!-- From field -->
+			<label for="from">From:</label>
+			<input type="text" name="from" id="from" /><br />
+		
+			<!-- Subject field -->	
+			<label for="subject">Subject:</label>
+			<input type="text" name="subject" id="subject" /><br />
+		
+			<!-- Message field -->	
+			<label for="body">Message:</label>
+			<textarea name="body" id="body" rows="4" cols="50"></textarea><br />
+		
+			<!-- Submit button -->		
+			<input id="button" type="submit" value="Submit" id="submit" />
+			</form>
+		</div>		
+	</div>
+</body>
+</html>
